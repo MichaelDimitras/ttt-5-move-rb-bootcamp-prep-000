@@ -12,6 +12,6 @@ user_in = gets.strip
 
 user_in = input_to_index(user_in)
 
-move(board, user_in, "X")
+move(board, user_in)
 
 display_board()
