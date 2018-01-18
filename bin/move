@@ -7,3 +7,9 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 
 board = [" "," "," "," "," "," "," "," "," "]
+
+puts "Where would you like to go?"
+
+user_in = gets.strip
+
+user_in = input_to_index(user_in) 
